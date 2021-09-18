@@ -267,9 +267,6 @@ footer p {
   margin: auto;
 }
 @media (max-width: 480px) {
-  body {
-    background-color: turquoise;
-  }
   .repair-text {
     position: absolute;
     padding-top: 45%;
