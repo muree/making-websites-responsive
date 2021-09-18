@@ -1,0 +1,346 @@
+:root {
+  --primary-color: #cccccc;
+}
+body {
+  background: white;
+  margin: 0;
+}
+
+.center {
+  text-align: center;
+}
+.custom-btn {
+  background-color: #da1f1f;
+  border-radius: 3px;
+  border-color: #da1f1f;
+  line-height: 28px;
+  width: 110px;
+  color: white;
+  font-size: 0.6rem;
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.navbar .logo {
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.navbar .menu {
+  display: block;
+  margin-left: auto;
+  cursor: pointer;
+}
+.paint-lady {
+  max-height: 100%;
+  background-image: url("../img/hero-bg.jpg");
+  background-size: cover;
+  height: 550px;
+}
+.paint-lady .text-content {
+  width: 40%;
+  padding-left: 10%;
+  padding-top: 10%;
+  color: white;
+}
+.paint-lady .text-content .repair-text h4 {
+  font-size: 2rem;
+}
+.paint-lady .text-content .repair-text h2 {
+  font-size: 4rem;
+  line-height: 0;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text-content .repair-text hr {
+  width: 20rem;
+  height: 1rem;
+  background-color: white;
+  position: relative;
+  margin-left: 0;
+}
+.paint-lady .tools {
+  padding-top: 8%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.services {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 7%;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+.services h5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: grey;
+}
+.services h3 {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+.services p {
+  font-family: "Roboto", sans-serif;
+  color: grey;
+  font-size: 1.5rem;
+}
+.services button {
+  background-color: #da1f1f;
+  border-radius: 3px;
+  border-color: #da1f1f;
+  line-height: 28px;
+  width: 110px;
+  color: white;
+  font-size: 0.6rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  align-items: center;
+  margin: auto;
+  padding-top: 30px;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.container .gallery-col1 {
+  padding: 10px;
+  margin: 20px;
+}
+.container .gallery-col1 p {
+  width: 60%;
+  margin-left: 15%;
+}
+.container .gallery-col2 h3 {
+  padding-top: 50px;
+  font-size: 1.5rem;
+}
+.container .gallery-col2 p {
+  color: #da1f1f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 40px;
+}
+.quality-section {
+  background-color: rgb(207, 200, 200);
+}
+.quality {
+  display: flex;
+  max-width: 80%;
+  margin: auto;
+}
+.quality-text h2 {
+  font-size: 2.5rem;
+  color: #0e4e91;
+  padding-top: 20vh;
+}
+.quality-text hr {
+  height: 8px;
+  background-color: #da1f1f;
+}
+.quality-text button {
+  background-color: #da1f1f;
+  border-radius: 3px;
+  border-color: #da1f1f;
+  line-height: 3em;
+  width: 12em;
+  color: white;
+  font-size: 0.6rem;
+}
+.service-gallery {
+  font-family: "Open Sans", sans-serif;
+}
+.jobs h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+}
+.jobs img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  padding: 6px;
+}
+.service-gallery {
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  align-items: center;
+  margin: auto;
+  padding-top: 30px;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.service-gallery h4 {
+  font-size: 1.5rem;
+}
+.service-gallery p {
+  font-style: italic;
+}
+.service-gallery .electrical,
+.painting,
+.repair {
+  margin: 1rem;
+}
+.about-us {
+  background-color: blue;
+}
+.cover {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.image-grid {
+  overflow: hidden;
+}
+.about-us img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  padding: 5px;
+}
+
+.about-text h4 {
+  font-size: 1.2rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.about-text p {
+  padding-top: 0;
+  font-size: 5rem;
+  color: white;
+  font-family: sans-serif;
+}
+
+.about-us .image-grid {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  justify-content: space-between;
+}
+.todo {
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.todo h2 {
+  font-size: 2.4rem;
+}
+.todo p {
+  font-size: 1.6rem;
+}
+.new {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+footer {
+  background-color: rgb(26, 13, 13);
+  height: 20vh;
+}
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  padding-top: 4rem;
+  width: 27%;
+  margin: auto;
+}
+@media (max-width: 480px) {
+  body {
+    background-color: turquoise;
+  }
+  .repair-text {
+    position: absolute;
+    padding-top: 45%;
+    width: 100%;
+    margin: auto;
+  }
+  .repair-text h4 {
+    text-align: left;
+    font-size: 1rem;
+  }
+
+  .paint-lady .tools {
+    display: none;
+    padding-top: 8%;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 100%;
+  }
+  .container {
+    flex-direction: column;
+    margin: auto;
+  }
+  .container .gallery-col1,
+  .gallery-col2 {
+    max-width: 80%;
+  }
+  .container .gallery-col1 p {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .quality-section {
+    height: 150vh;
+  }
+  .quality {
+    flex-direction: column;
+  }
+  .quality .engineer img {
+    max-width: 450px;
+  }
+
+  .cover {
+    display: block;
+  }
+  .cover .image-grid {
+    display: block;
+  }
+  .todo .custom-btn {
+    width: 11rem;
+    height: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1em;
+  }
+  .service-gallery {
+    flex-direction: column;
+  }
+}
+@media (max-width: 760px) {
+  .container {
+    flex-direction: column;
+    margin: auto;
+  }
+  .container .gallery-col1,
+  .gallery-col2 {
+    max-width: 90%;
+  }
+  .container .gallery-col1 p {
+    width: 100%;
+    margin-left: 0;
+  }
+  .cover {
+    display: block;
+  }
+}
